@@ -24,8 +24,25 @@ BLIP-2를 사용하여 이미지 캡셔닝을 진행. 기존 크롤링으로 수
 ## 환경 설정
 Google Colab Pro A100
 
+## TODO List
+- [x] Modulization
+- [ ] Reveal our Meme Dataset
+- [ ] Update Summarization Model
+- [ ] Making DB Systems
+- [ ] Training Retriever
+
 ## 사용 방법
-현재 ipynb 파일만 올라와 있으므로 전체를 돌리셔야 합니다.. 추후 모듈화 진행 후 코드를 업데이트할 예정입니다.
+1. 데이터셋을 준비해주세요.
+2. 데이터셋 전처리를 해주세요. (공개할 데이터셋은 2번까지 처리되어 있을 예정입니다.)
+  ```
+  cd data
+  python data_preprocessing.py
+  ```
+3. 데이터셋을 바탕으로 사용자 query를 입력해주세요.
+   ```
+   python main.py --user_input 꼭 이번에는 성공할거야
+                  --filename input.csv
+   ```
 
 ## 예시 결과
 ![image](https://github.com/AIKU-Official/Magical_SOLARgodong/assets/80198264/9a78913d-a947-4b8d-b981-44a2ecdb1d19)
