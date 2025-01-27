@@ -39,10 +39,10 @@ Google Colab Pro A100
   python data_preprocessing.py
   ```
 3. 데이터셋을 바탕으로 사용자 query를 입력해주세요.
-   ```
-   python main.py --user_input 꼭 이번에는 성공할거야
+ ```
+ python main.py --user_input 꼭 이번에는 성공할거야
                   --filename input.csv
-   ```
+ ```
 
 ## 예시 결과
 ![image](https://github.com/AIKU-Official/Magical_SOLARgodong/assets/80198264/9a78913d-a947-4b8d-b981-44a2ecdb1d19)
